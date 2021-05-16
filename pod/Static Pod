@@ -1,0 +1,30 @@
+Steps For Static Pod
+
+1. minikube ssh
+
+2. go to etc folder
+
+3. cd kubernetes 
+
+4. cd manifest
+
+5. create a file here (sudo touch file.yml)
+
+
+6. Wrtie a pod file here
+
+
+7. sudo systemctl restart kubelet 
+
+
+8. now ,
+           kubectl get pods
+           
+9. Now you can see your static pod running
+
+
+10. Even if you delete your pod from here and run the get pod command you still find your static pod running
+
+
+ 
+             

@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: init
+spec:
+  containers:
+  - name: main-container
+    image: shivanisarthi123/java
+    
+    initContainers:
+  - name: init-container
+    image: shivanisarthi123/java
+    command: ['sh', '-c', 'echo init One']
+  restartPolicy: Never  

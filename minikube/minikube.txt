@@ -1,0 +1,38 @@
+﻿ minikube start
+
+Starts a local container
+Select the docker driver, pull the base image and download kubernetes in the container.
+Assign docker container with 2 CPU  and some memory
+
+
+ minikube status
+
+Tells about the status of a local Kubernetes cluster such as type, host, kubelet, 
+apiserver,kubeconfig 
+
+minikube stop
+
+Stops a running local Kubernetes cluster and powering off via ssh
+
+minikube delete
+
+Stops a running local Kubernetes cluster
+
+minikube dashboard
+
+Access the Kubernetes dashboard running within the minikube cluster
+
+minikube pause
+
+pause Kubernetes
+
+minikube unpause 
+
+unpause Kubernetes
+
+docker-env 
+Configure environment to use minikube’s Docker daemon
+
+
+
+ 
